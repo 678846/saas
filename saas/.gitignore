@@ -1,0 +1,28 @@
+# pycharm
+.idea/
+.DS_Store
+
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Django stuff:
+local_settings.py
+*.sqlite3
+
+# database migrations
+*/migrations/*.py
+!*/migrations/__init__.py
+
+
+
+#以下是每一行代码在 .gitignore 文件中的含义：
+#.idea/：忽略 PyCharm IDE 相关的文件和目录。
+#.DS_Store：忽略 macOS 系统自动生成的 .DS_Store 文件，这些文件在文件夹中存储了文件的元数据。
+#__pycache__/：忽略 Python 解释器生成的缓存文件。
+#*.py[cod]：忽略以 .pyc、.pyo 和 .pyd 结尾的编译文件。
+#*$py.class：忽略以 $py.class 结尾的 Jython 编译文件。
+#local_settings.py：忽略 Django 项目中的本地设置文件，这个文件通常用于存储开发环境的配置。
+#*.sqlite3：忽略 SQLite 数据库文件。
+#*/migrations/*.py：忽略 Django 项目中 migrations 目录下所有的 .py 文件。
+#!*/migrations/__init__.py：不忽略 migrations 目录下的 init.py 文件，这个文件用于标识 migrations 目录为一个 Python 包。
